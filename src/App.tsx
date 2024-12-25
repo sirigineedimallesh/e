@@ -9,7 +9,7 @@ import Payment from './pages/Payment';
 function App() {
   const hash = window.location.hash;
   const showCart = hash === '#cart';
-  const showProduct = hash === '/product';
+  const showProduct = hash === '#product';
   const showPayment = hash === '#payment';
 
   return (
